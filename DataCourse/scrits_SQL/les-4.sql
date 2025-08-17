@@ -114,3 +114,63 @@ where
      and title like 'P%') or 
     (length between 70 and 120 
      and cast(rating AS text) like 'PG');
+
+-- Homework lesson 4
+
+-- Задание 1
+
+select *
+from 
+    payment
+where 
+    amount > 7 and 
+    payment_date between '2007-03-01' and '2007-03-31';
+
+-- Задание 2
+
+select *
+from 
+    payment
+where 
+    amount > 7 or amount between 3.3 and 5.5;
+
+-- Задание 3
+
+select *
+from
+    payment
+where
+    not amount > 7 and
+    not amount between 3.3 and 5.5;
+    
+-- Задание 4
+    
+select *
+from
+    payment
+where
+    payment_id % 10 = 1;
+
+-- Задание 5
+
+select *
+from
+    actor
+where
+    first_name like 'R%';
+
+-- Задание 6
+    
+select *
+from
+    actor
+where
+    lower(last_name) like '%a%';
+
+-- Задание 7
+
+select *
+from
+    film
+where
+    length in (87, 116, 184);

@@ -16,7 +16,10 @@
     - [script_1](DataCourse/scrits_SQL/les-3.sql)
 
 2. Логические операторы и выражения в WHERE
-    - [script_2](DataCourse/scrits_SQL/les-4.sql) [⏳]
+    - [script_2](DataCourse/scrits_SQL/les-4.sql)
+
+3. Сортировка строк с помощью order by
+    - [script_3](DataCourse/scrits_SQL/les-5.sql) [⏳]
 
 ## Прогресс и ссылки на конспекты
 
@@ -32,6 +35,8 @@
 
 - [✔][Домашка 3, 4, 5](DataCourse/homework_2.md)
 
-[⏳][Конспект урока 6](DataCourse/readme_les_4.md)
+[✔][Конспект урока 6](DataCourse/readme_les_4.md)
+
+- [✔][Домашка урока 6](DataCourse/homework_3.md)
 
 - all time video 🕓 [40:19] finished 🕓 [29:00]
