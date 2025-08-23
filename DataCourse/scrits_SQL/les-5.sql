@@ -4,9 +4,9 @@ select null = 'Some string'; -- Результат будет NULL
 
 select '' = 'Some string'; -- Результат false
 
-select '' = '' -- Результат true
+select '' = ''; -- Результат true
 
-select 'text' = 'text' -- Результат true
+select 'text' = 'text'; -- Результат true
 
 select 'text' = 'new_text' -- Результат false
 
@@ -29,7 +29,7 @@ from address; -- в поле address2 есть несколько значени
 
 select *
 from address
-where address2 <> 'Moscow' -- тут мы в выборке не увидим строчек со значением NULL
+where address2 <> 'Moscow'; -- тут мы в выборке не увидим строчек со значением NULL
 
 -- тобы нам добавить строки и со значениями NULL 
 -- нужно дописать следующее
@@ -131,4 +131,78 @@ order by address2 DESC nulls last;
 -- Получим данные из таблицы staff (персонал)
 select *  
 from staff
-order by picture
+order by picture;
+
+-- Домашка урока
+
+-- Задача 1 
+
+-- сортировка по продолжительности фильма по названию поля length
+select 
+    title,
+    length len
+from film
+order by length;
+
+-- сортировка по продолжительности фильма по номеру столбца в выборке поля length
+select 
+    title,
+    length len
+from film
+order by 2;
+
+-- сортировка по продолжительности фильма по псевдониму столбца поля length
+select 
+    title,
+    length len
+from film
+order by len;
+
+-- Задача 2
+
+-- с вычисляемым полем
+select 
+    length,
+    rental_duration,
+    title,
+    length / rental_duration as "length / rental_duration"
+from film
+order by length / rental_duration;
+
+-- решение окончательное
+select 
+    length,
+    rental_duration,
+    title
+from film
+order by length / rental_duration;
+
+-- Задача 3
+
+select *
+from film
+order by rating, length DESC;
+
+-- Тип данных — TEXT, но значения представлены как категории. 
+-- Тогда сортировка будет по ASCII-кодам, и, 
+-- например, 'NC-17' может идти перед 'G'.
+
+select *
+from film
+order by cast(rating as text), length DESC; -- так преобразуем категории как текст
+-- теперь сортировка будет по алфавиту
+
+-- еще вариант с использованием CASE
+-- определим каждой категории свой порядковый номер
+SELECT *
+FROM film
+ORDER BY
+  CASE rating
+    WHEN 'G' THEN 1
+    WHEN 'NC-17' THEN 2
+    WHEN 'PG' THEN 3
+    WHEN 'PG-13' THEN 4
+    WHEN 'R' THEN 5
+    ELSE 6
+  END,
+  length DESC;
