@@ -35,14 +35,14 @@ from film
 order by len
 ```
 
-А решение выглядит так в DBeaver
+А решение выглядит так для всех трех вариантов кода в DBeaver
 
 ![png](img/5/015.png)
 
 ## Задание 2
 
 Из таблицы фильмов (film) запросить 3 поля: length, rental_duration, title.
-Отсортировать по убыванию следующего выражения: length / rental_duration
+Отсортировать по возрастанию следующего выражения: length / rental_duration
 
 Решение:
 
