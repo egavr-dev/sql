@@ -39,9 +39,10 @@
 
 - [✔][Домашка урока 6](DataCourse/homework_3.md)
 
-[⏳][Конспект урока 7](DataCourse/readme_les_5.md)
+[✔][Конспект урока 7](DataCourse/readme_les_5.md)
 
-- all time video 🕓 [14:24] finished 🕓 [04:30]
+- [✔][Домашка урока 7](DataCourse/homework_4.md)
+
 
 
 
