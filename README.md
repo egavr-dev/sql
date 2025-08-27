@@ -43,6 +43,7 @@
 
 - [✔][Домашка урока 7](DataCourse/homework_4.md)
 
+[✔][Конспект урока 8](DataCourse/readme_les_6.md)
 
 
 
