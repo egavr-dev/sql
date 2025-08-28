@@ -163,7 +163,6 @@ from film f
 left join  inventory i
     on f.film_id = i.film_id
 where i.film_id is NULL;
-
 ```
 
 Получилось 42 строки из фильмов которых нет в прокате

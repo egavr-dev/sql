@@ -45,6 +45,7 @@
 
 [✔][Конспект урока 8](DataCourse/readme_les_6.md)
 
+- [✔][Домашка урока 8](DataCourse/homework_5.md)
 
 
 
