@@ -328,7 +328,15 @@ full join category c
     on true
 left outer join film_category fc
     on fc.film_id = f.film_id  
-order by f.title
+order by f.title;
+
+select f.title, c.name, *
+from film f
+full join category c 
+    on true
+left outer join film_category fc
+    on fc.film_id = f.film_id  
+order by f.title;
 
 select *
 from film_category fc 
