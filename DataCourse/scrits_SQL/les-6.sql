@@ -284,6 +284,18 @@ inner join actor a
     on fa.actor_id = a.actor_id
 order by title;
 
+select
+    f.title,
+    a.first_name,
+    a.last_name 
+from film f
+inner join film_actor fa
+    on fa.film_id = f.film_id
+inner join actor a 
+    on fa.actor_id = a.actor_id
+where f.title = 'Chamber Italian'
+order by title;
+
 -- Задание 2 (JOIN)
 
 select 
@@ -339,4 +351,9 @@ select f.title,
 from film f 
 left join  inventory i
     on f.film_id = i.film_id
-where title in('Wake Jaws')
+where title in('Wake Jaws');
+
+-- узнаем типы данных, и другие метаданные о интересующих таблицах
+
+select column_name, data_type, character_maximum_length, column_default, is_nullable
+from INFORMATION_SCHEMA.COLUMNS where table_name = 'film';
