@@ -17,7 +17,6 @@ from film f;
 -- но на саммо деле появляются дополнительные возможности работы с 
 -- группами при группировке используя функции группировок
 
-
 -- Функция COUNT()
 select 
     rating,
@@ -213,3 +212,96 @@ left join film f
     and f.rating = 'G'
 group by 
     actor_name;
+
+-- Задача 1
+select 
+    f.title as film_title,
+    sum(p.amount) as amount
+from film f 
+left join inventory i 
+    on f.film_id = i.film_id 
+left join rental r 
+    on i.inventory_id = r.inventory_id
+left join payment p
+    on r.rental_id = p.rental_id
+group by 
+    f.title
+having sum(p.amount) is not NULL
+order by amount desc;
+
+-- Вариант с NULL тоесть с фильмами которые не были в прокате.
+select 
+    f.title as film_title,
+    sum(p.amount) as amount
+from film f 
+left join inventory i 
+    on f.film_id = i.film_id 
+left join rental r 
+    on i.inventory_id = r.inventory_id
+left join payment p
+    on r.rental_id = p.rental_id
+group by 
+    f.title
+order by amount desc;
+
+select 
+    f.title as film_title,
+    sum(p.amount) as amount
+from film f 
+join inventory i 
+    on f.film_id = i.film_id 
+join rental r 
+    on i.inventory_id = r.inventory_id
+join payment p
+    on r.rental_id = p.rental_id
+group by 
+    f.title
+order by amount desc;
+
+-- Задача 2
+select 
+    a.first_name || ' ' || a.last_name as actor_name,
+    count(fa.film_id) as film_number
+from actor a
+left join film_actor fa 
+    on a.actor_id = fa.actor_id
+group by 1
+having count(fa.film_id) > 20
+order by film_number;
+
+-- задача 2 без сортировки
+select 
+    a.first_name || ' ' || a.last_name as actor_name,
+    count(fa.film_id) as film_number
+from actor a
+left join film_actor fa 
+    on a.actor_id = fa.actor_id
+group by 1
+having count(fa.film_id) > 20
+
+select 
+    a.first_name || ' ' || a.last_name as actor_name,
+    count(fa.film_id) as film_number
+from actor a
+left join film_actor fa 
+    on a.actor_id = fa.actor_id
+group by actor_name
+having count(fa.film_id) > 20
+
+-- Задача 3
+select 
+    count(*)
+from film f
+where f.length > 120;
+
+-- Задача 4 * (со звездочкой)
+select 
+    c.name as category_name,
+    count(f.film_id ) as film_number
+from film_category fc 
+right join category c 
+    on fc.category_id = c.category_id 
+left join film f 
+    on fc.film_id = f.film_id and f.length > 179
+group by c.category_id
+order by film_number desc;
