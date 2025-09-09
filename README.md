@@ -19,7 +19,17 @@
     - [script_2](DataCourse/scrits_SQL/les-4.sql)
 
 3. Сортировка строк с помощью order by
-    - [script_3](DataCourse/scrits_SQL/les-5.sql) [⏳]
+    - [script_3](DataCourse/scrits_SQL/les-5.sql)
+
+4. Получение уникальных значений Distinct. Соединения таблиц. JOIN
+    - [script_4](DataCourse/scrits_SQL/les-6.sql)
+
+5. Группировки с помощью Group By, Having
+    - [script_5](DataCourse/scrits_SQL/les-7.sql)
+
+6. Условия и выражения с помощью CASE
+    - [script_6](DataCourse/scrits_SQL/les-8.sql)
+
 
 ## Прогресс и ссылки на конспекты
 
