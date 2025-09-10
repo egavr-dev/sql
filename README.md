@@ -66,4 +66,6 @@
 - [✔][Домашка урока 10](DataCourse/homework_7.md)
 
 [✔][Конспект урока 11](DataCourse/readme_les_9.md)
+
+- [✔][Домашка урока 11](DataCourse/homework_8.md)
 ССылка на курс для повторения [link](https://www.youtube.com/watch?v=46sM2bBq4aw&list=PL0FN8SpXya_JgY0s8QM8xGVcZ26YLL0sa)
