@@ -30,6 +30,8 @@
 6. Условия и выражения с помощью CASE
     - [script_6](DataCourse/scrits_SQL/les-8.sql)
 
+7. Получение части строк из результата с помощью Limit и Offset
+   - [script_7](DataCourse/scrits_SQL/les-9.sql)
 
 ## Прогресс и ссылки на конспекты
 
