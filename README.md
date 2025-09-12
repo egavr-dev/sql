@@ -78,4 +78,16 @@
 
 - [✔][Домашка урока 12](DataCourse/homework_9.md)
 
+[⏳][Конспект урока 13](DataCourse/readme_les_11.md)
+
+- all time video 🕓 [18:00] finished 🕓 [23:55]
+
+- [⏳][Домашка урока 13](DataCourse/homework_10.md)
+
+
+
+
+⏳
+✔
+
 ССылка на курс для повторения [link](https://www.youtube.com/watch?v=46sM2bBq4aw&list=PL0FN8SpXya_JgY0s8QM8xGVcZ26YLL0sa)

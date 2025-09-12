@@ -34,7 +34,7 @@ from actor a
 join film_actor fa 
     on a.actor_id = fa.actor_id and a.last_name = 'Grant'
 join film f 
-    on fa.film_id = f.film_id
+    on fa.film_id = f.film_id;
 ```
 
 А решение выглядит так в DBeaver
@@ -62,7 +62,7 @@ select
     f.film_id,
     f.title
 from film f
-where f.rating = 'G'
+where f.rating = 'G';
 ```
 
 А решение выглядит так в DBeaver  получим всего 5 строк
@@ -89,7 +89,7 @@ from actor a
 join film_actor fa 
     on a.actor_id = fa.actor_id and a.last_name = 'Grant'
 join film f 
-    on fa.film_id = f.film_id
+    on fa.film_id = f.film_id;
 ```
 
 Или вот так еще можно
@@ -108,7 +108,7 @@ select
     f.film_id,
     f.title
 from film f
-where f.rating = 'G'  
+where f.rating = 'G';
 ```
 
 А решение выглядит так в DBeaver получим всего 13 строк
