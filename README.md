@@ -36,6 +36,9 @@
 8. Соединение результатов запросов с помощью UNION, UNION ALL, EXCEPT, INTERSECT
    - [script_8](DataCourse/scrits_SQL/les-10.sql)
 
+9. Фильтрация в агрегатных функциях Filter
+   - [script_8](DataCourse/scrits_SQL/les-11.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
