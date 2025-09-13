@@ -85,7 +85,6 @@
 
 - [✔][Домашка урока 13](DataCourse/homework_10.md)
 
-- all time video 🕓 [18:00] finished 🕓 [23:55]
 
 
 
