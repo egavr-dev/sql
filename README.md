@@ -78,11 +78,11 @@
 
 - [✔][Домашка урока 12](DataCourse/homework_9.md)
 
-[⏳][Конспект урока 13](DataCourse/readme_les_11.md)
+[✔][Конспект урока 13](DataCourse/readme_les_11.md)
+
 
 - all time video 🕓 [18:00] finished 🕓 [23:55]
 
-- [⏳][Домашка урока 13](DataCourse/homework_10.md)
 
 
 
