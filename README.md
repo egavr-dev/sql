@@ -85,7 +85,7 @@
 
 - [✔][Домашка урока 13](DataCourse/homework_10.md)
 
-
+[✔][Конспект урока 14](DataCourse/readme_les_12.md)
 
 
 
@@ -93,4 +93,4 @@
 ⏳
 ✔
 
-ССылка на курс для повторения [link](https://www.youtube.com/watch?v=46sM2bBq4aw&list=PL0FN8SpXya_JgY0s8QM8xGVcZ26YLL0sa)
+Link на курс для повторения [link course](https://www.youtube.com/watch?v=46sM2bBq4aw&list=PL0FN8SpXya_JgY0s8QM8xGVcZ26YLL0sa)
