@@ -39,6 +39,9 @@
 9. Фильтрация в агрегатных функциях Filter
    - [script_8](DataCourse/scrits_SQL/les-11.sql)
 
+10. Подзапросы
+    - [script_9](DataCourse/scrits_SQL/les-12.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
