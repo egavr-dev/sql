@@ -92,6 +92,7 @@
 
 - [✔][Домашка урока 14](DataCourse/homework_11.md)
 
+[✔][Конспект урока 15](DataCourse/readme_les_13.md)
 
 
 ⏳
