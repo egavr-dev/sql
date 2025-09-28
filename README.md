@@ -42,6 +42,10 @@
 10. Подзапросы
     - [script_9](DataCourse/scrits_SQL/les-12.sql)
 
+11. Общие табличные выражения common table expression (CTE)
+используется (with, )
+    - [script_10](DataCourse/scrits_SQL/les-13.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
