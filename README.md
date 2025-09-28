@@ -94,6 +94,7 @@
 
 [✔][Конспект урока 15](DataCourse/readme_les_13.md)
 
+- [✔][Домашка урока 15](DataCourse/homework_12.md)
 
 ⏳
 ✔
