@@ -100,6 +100,7 @@
 
 - [✔][Домашка урока 15](DataCourse/homework_12.md)
 
+[✔][Конспект урока 16](DataCourse/readme_les_14.md)
 ⏳
 ✔
 
