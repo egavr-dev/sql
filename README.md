@@ -46,6 +46,9 @@
 используется (with, )
     - [script_10](DataCourse/scrits_SQL/les-13.sql)
 
+12. Оконные функции
+    - [script_10](DataCourse/scrits_SQL/les-14.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
@@ -101,6 +104,8 @@
 - [✔][Домашка урока 15](DataCourse/homework_12.md)
 
 [✔][Конспект урока 16](DataCourse/readme_les_14.md)
+
+- [✔][Домашка урока 16](DataCourse/homework_13.md)
 ⏳
 ✔
 
