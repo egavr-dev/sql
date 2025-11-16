@@ -49,6 +49,9 @@
 12. Оконные функции
     - [script_10](DataCourse/scrits_SQL/les-14.sql)
 
+13. Порядок выполнения частей запроса.
+    - [script_10](DataCourse/scrits_SQL/les-15.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
