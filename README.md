@@ -113,6 +113,9 @@
 [✔][Конспект урока 17](DataCourse/readme_les_15.md)
 
 [✔][Конспект урока 18](DataCourse/readme_les_16.md)
+
+- [✔][Домашка после урока 18](DataCourse/homework_14.md)
+
 ⏳
 ✔
 
