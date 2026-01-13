@@ -19,8 +19,8 @@ drop table internet_film;
 create table if not exists internet_film (
     internet_film_id serial not null,
     title varchar(50) not null,
-    price real not null,
-    rental_duration int not null,
+    price numeric(10, 2) not null,
+    rental_duration smallint not null,
     description varchar(500) null
 );
 
@@ -60,9 +60,9 @@ select * from internet_film;
 insert into internet_film
 (title, price, rental_duration)
 select 
-    title,
+    f.title,
     2,
-    rental_duration
+    f.rental_duration
 from film f
 where f.rating = 'G';
 
