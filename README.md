@@ -55,6 +55,9 @@
 14. Создание и наполнение таблиц. Типы данных. Изменение, вставка, удаление данных из таблиц.
     - [script_11](DataCourse/scrits_SQL/les-16.sql)
 
+15. Преобразование типов данных явные и неявные.
+    - [script_15](DataCourse/scrits_SQL/les-17.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
@@ -118,6 +121,8 @@
 [✔][Конспект урока 18](DataCourse/readme_les_16.md)
 
 - [✔][Домашка после урока 18](DataCourse/homework_14.md)
+
+[✔][Конспект урока 19](DataCourse/readme_les_17.md)
 
 ⏳
 ✔
