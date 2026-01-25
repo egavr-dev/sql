@@ -37,23 +37,23 @@
    - [script_8](DataCourse/scrits_SQL/les-10.sql)
 
 9. Фильтрация в агрегатных функциях Filter
-   - [script_8](DataCourse/scrits_SQL/les-11.sql)
+   - [script_9](DataCourse/scrits_SQL/les-11.sql)
 
 10. Подзапросы
-    - [script_9](DataCourse/scrits_SQL/les-12.sql)
+    - [script_10](DataCourse/scrits_SQL/les-12.sql)
 
 11. Общие табличные выражения common table expression (CTE)
 используется (with, )
-    - [script_10](DataCourse/scrits_SQL/les-13.sql)
+    - [script_11](DataCourse/scrits_SQL/les-13.sql)
 
 12. Оконные функции
-    - [script_10](DataCourse/scrits_SQL/les-14.sql)
+    - [script_12](DataCourse/scrits_SQL/les-14.sql)
 
 13. Порядок выполнения частей запроса.
-    - [script_10](DataCourse/scrits_SQL/les-15.sql)
+    - [script_13](DataCourse/scrits_SQL/les-15.sql)
 
 14. Создание и наполнение таблиц. Типы данных. Изменение, вставка, удаление данных из таблиц.
-    - [script_11](DataCourse/scrits_SQL/les-16.sql)
+    - [script_14](DataCourse/scrits_SQL/les-16.sql)
 
 15. Преобразование типов данных явные и неявные.
     - [script_15](DataCourse/scrits_SQL/les-17.sql)
