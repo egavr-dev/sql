@@ -124,6 +124,8 @@
 
 [✔][Конспект урока 19](DataCourse/readme_les_17.md)
 
+[✔][Конспект урока 20](DataCourse/readme_les_18.md)
+
 ⏳
 ✔
 
