@@ -58,6 +58,9 @@
 15. Преобразование типов данных явные и неявные.
     - [script_15](DataCourse/scrits_SQL/les-17.sql)
 
+16. Представления (VIEW).
+    - [script_16](DataCourse/scrits_SQL/les-18.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
