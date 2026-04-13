@@ -132,6 +132,8 @@
 - [✔][Домашка урока 20](DataCourse/homework_15.md)
 
 [✔][Конспект урока 21](DataCourse/readme_les_19.md)
+
+- [✔][Домашка урока 21](DataCourse/homework_16.md)
 ⏳
 ✔
 
