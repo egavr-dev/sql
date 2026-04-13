@@ -61,6 +61,9 @@
 16. Представления (VIEW).
     - [script_16](DataCourse/scrits_SQL/les-18.sql)
 
+17. Ограничения.
+    - [script_17](DataCourse/scrits_SQL/les-19.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
