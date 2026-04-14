@@ -26,3 +26,19 @@ create table if not exists internet_film (
 
 select * from internet_film;
 ```
+
+Вариант учителя ;)
+
+```SQL
+drop table if exists internet_film;
+
+create table if not exists internet_film (
+    internet_film_id serial primary key,
+    title varchar(50) not null unique,
+    price numeric(5, 2) not null check(price > 0 and price <= 100),
+    rental_duration smallint not null check(rental_duration > 0),
+    description varchar(500)
+);
+
+select * from internet_film;
+```
