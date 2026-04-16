@@ -101,9 +101,76 @@ select * from factorial
 
 -- Домашняя работа урока 
 -- Задача 1
+with recursive count_subordinates as (
+    select 
+        e.employees_id,
+        e.full_name,
+        e.manager_id
+    from employees e 
+    where e.employees_id = 2
+    union all
+    select
+        e.employees_id,
+        e.full_name,
+        e.manager_id
+    from count_subordinates cs
+    join employees e 
+        on cs.employees_id = e.manager_id
+)
+select 
+    concat('У сотрудника 2 в подченение ', 
+            count(*) - 1, 
+            ' сотрудников'
+             ) 
+from count_subordinates cs
 
+-- Задача 2
+with recursive count_managers as(
+    select
+        e.employees_id,
+        e.full_name,
+        e.manager_id
+    from
+        employees e 
+    where e.employees_id = 20
+    union all
+    select
+        e.employees_id,
+        e.full_name,
+        e.manager_id
+    from 
+        count_managers cm
+    join employees e
+        on cm.manager_id = e.employees_id  
+)
+select 
+    concat('У сотрудника 20 количество руководителей =  ', 
+            count(*) - 1
+          )  
+from count_managers
 
-
-
-
-
+-- Задача 3
+with recursive subordinates as (
+    select
+        1 as level,
+        e.employees_id,
+        e.full_name,
+        e.manager_id
+    from employees e 
+    where e.employees_id = 1
+    union all
+    select
+        cs.level + 1 as level, 
+        e.employees_id,
+        e.full_name,
+        e.manager_id
+    from subordinates cs
+    join employees e 
+        on cs.employees_id = e.manager_id
+)
+select 
+    cs.employees_id,
+    cs.full_name,
+    cs.level
+from subordinates cs
+where cs.level < 4;
