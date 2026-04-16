@@ -63,6 +63,9 @@
 17. Ограничения.
     - [script_17](DataCourse/scrits_SQL/les-19.sql)
 
+18 Рекурсия в SQL
+    - [script_18](DataCourse/scrits_SQL/les-20.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
@@ -138,6 +141,8 @@
 - [✔][Домашка урока 21](DataCourse/homework_16.md)
 
 [✔][Конспект урока 22](DataCourse/readme_les_20.md)
+
+- [✔][Домашка урока 22](DataCourse/homework_17.md)
 
 ⏳
 ✔
