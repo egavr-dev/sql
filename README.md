@@ -66,6 +66,9 @@
 18 Рекурсия в SQL
     - [script_18](DataCourse/scrits_SQL/les-20.sql)
 
+19 Оптимизация запросов explain и explain analyze
+    - [script_19](DataCourse/scrits_SQL/les-21.sql)
+
 ## Прогресс и ссылки на конспекты
 
 [✔][Конспект урока 1](DataCourse/readme_les_1.md)
