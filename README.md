@@ -146,6 +146,8 @@
 
 [✔][Конспект урока 23](DataCourse/readme_les_21.md)
 
+- [✔][Домашка урока 23](DataCourse/homework_18.md)
+
 ⏳
 ✔
 
