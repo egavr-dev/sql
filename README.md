@@ -144,6 +144,8 @@
 
 - [✔][Домашка урока 22](DataCourse/homework_17.md)
 
+[✔][Конспект урока 23](DataCourse/readme_les_21.md)
+
 ⏳
 ✔
 
